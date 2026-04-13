@@ -1,1 +1,1 @@
-pipe hace infraestructure yo hago los seeders pipe hace las apliaciones yo nos domain y entre los dos los ui 
+pipe hace infrastructure yo hago los seeders pipe hace las apliaciones yo nos domain y entre los dos los ui 
