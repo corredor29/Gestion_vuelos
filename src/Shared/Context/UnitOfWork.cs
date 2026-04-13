@@ -1,30 +1,29 @@
 using System;
 using System.Threading.Tasks;
-using SistemaTiquetes.shared.Context; // Tu namespace del DbContext
 using GestionVuelos.Shared.Contracts;
 
 // Importamos las implementaciones de los repositorios
-using GestionVuelos.Models.Paises.Infrastructure.Repository;
-using GestionVuelos.Models.Ciudades.Infrastructure.Repository;
-using GestionVuelos.Models.Aerolineas.Infrastructure.Repository;
-using GestionVuelos.Models.Aeropuerto.Infrastructure.Repository;
-using GestionVuelos.Models.Clientes.Infrastructure.Repository;
-using GestionVuelos.Models.ClienteEmails.Infrastructure.Repository;
-using GestionVuelos.Models.ClienteTelefonos.Infrastructure.Repository;
-using GestionVuelos.Models.Vuelos.Infrastructure.Repository;
-using GestionVuelos.Models.AsientosVuelos.Infrastructure.Repository;
-using GestionVuelos.Models.EstadoVuelo.Infrastructure.Repository;
-using GestionVuelos.Models.Reservas.Infrastructure.Repository;
-using GestionVuelos.Models.Pasajeros.Infrastructure.Repository;
-using GestionVuelos.Models.ReservasPasajeros.Infrastructure.Repository;
-using GestionVuelos.Models.Tiquete.Infrastructure.Repository;
-using GestionVuelos.Models.Pagos.Infrastructure.Repository;
-using GestionVuelos.Models.MetodosPago.Infrastructure.Repository;
-using GestionVuelos.Models.Usuario.Infrastructure.Repository;
-using GestionVuelos.Models.UsuarioRol.Infrastructure.Repository;
-using GestionVuelos.Models.TipoDocumento.Infrastructure.Repository;
-using GestionVuelos.Models.Roles.Infrastructure.Repository;
-using GestionVuelos.Models.EstadoTiquete.Infrastructure.Repository;
+using GestionVuelos.Modules.Paises.Infrastructure.Repository;
+using GestionVuelos.Modules.Ciudades.Infrastructure.Repository;
+using GestionVuelos.Modules.Aerolineas.Infrastructure.Repository;
+using GestionVuelos.Modules.Aeropuerto.Infrastructure.Repository;
+using GestionVuelos.Modules.Clientes.Infrastructure.Repository;
+using GestionVuelos.Modules.ClienteEmails.Infrastructure.Repository;
+using GestionVuelos.Modules.ClienteTelefonos.Infrastructure.Repository;
+using GestionVuelos.Modules.Vuelos.Infrastructure.Repository;
+using GestionVuelos.Modules.AsientosVuelos.Infrastructure.Repository;
+using GestionVuelos.Modules.EstadoVuelo.Infrastructure.Repository;
+using GestionVuelos.Modules.Reservas.Infrastructure.Repository;
+using GestionVuelos.Modules.Pasajeros.Infrastructure.Repository;
+using GestionVuelos.Modules.ReservasPasajeros.Infrastructure.Repository;
+using GestionVuelos.Modules.Tiquete.Infrastructure.Repository;
+using GestionVuelos.Modules.Pagos.Infrastructure.Repository;
+using GestionVuelos.Modules.MetodosPago.Infrastructure.Repository;
+using GestionVuelos.Modules.Usuario.Infrastructure.Repository;
+using GestionVuelos.Modules.UsuarioRol.Infrastructure.Repository;
+using GestionVuelos.Modules.TipoDocumento.Infrastructure.Repository;
+using GestionVuelos.Modules.Roles.Infrastructure.Repository;
+using GestionVuelos.Modules.EstadoTiquete.Infrastructure.Repository;
 
 namespace GestionVuelos.Shared.Context;
 
