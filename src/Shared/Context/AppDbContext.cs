@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Gestion_vuelos.src.Modules.Paises.Infraestructure.Entity;
+using Gestion_vuelos.src.Modules.Paises.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.Ciudades.Infraestructure.Entity;
 using Gestion_vuelos.src.Modules.TipoDocumento.Infraestructure.Entity;
 using Gestion_vuelos.src.Modules.Roles.Infraestructure.Entity;
