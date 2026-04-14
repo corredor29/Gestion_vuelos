@@ -4,6 +4,7 @@ using Gestion_vuelos.src.Shared.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Gestion_vuelos.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260414060110_DominiosEmail")]
+    partial class DominiosEmail
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -146,30 +149,6 @@ namespace Gestion_vuelos.Migrations
                     b.HasIndex("Tipo_Documento_Id");
 
                     b.ToTable("Clientes", (string)null);
-                });
-
-            modelBuilder.Entity("Gestion_vuelos.src.Modules.CodigosTelefono.infrastructure.Entity.CodigosTelefonoEntity", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("char(36)")
-                        .HasColumnName("id");
-
-                    b.Property<string>("Country_code")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("varchar(50)")
-                        .HasColumnName("Country_code");
-
-                    b.Property<string>("Pais")
-                        .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("varchar(10)")
-                        .HasColumnName("Pais");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("phone_codes", (string)null);
                 });
 
             modelBuilder.Entity("Gestion_vuelos.src.Modules.DominiosEmail.infrastructure.Entity.DominiosEmailEntity", b =>

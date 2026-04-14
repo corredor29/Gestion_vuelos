@@ -5,6 +5,8 @@ using Gestion_vuelos.src.Modules.Aerolineas.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.Aeropuerto.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.TipoDocumento.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.Clientes.infrastructure.Entity;
+using Gestion_vuelos.src.Modules.DominiosEmail.infrastructure.Entity;
+
 
 /*
 using Gestion_vuelos.src.Modules.Roles.infrastructure.Entity;
