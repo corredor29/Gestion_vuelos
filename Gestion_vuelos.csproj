@@ -10,6 +10,16 @@
   <ItemGroup>
     <Folder Include="src\" />
     <Folder Include="src\Modules\" />
+    <Folder Include="src\Modules\Clientes\" />
+    <Folder Include="src\Modules\Clientes\Application\" />
+    <Folder Include="src\Modules\Clientes\Application\Interfaces\" />
+    <Folder Include="src\Modules\Clientes\Application\Services\" />
+    <Folder Include="src\Modules\Clientes\Application\UseCases\" />
+    <Folder Include="src\Modules\Clientes\Domain\" />
+    <Folder Include="src\Modules\Clientes\Domain\Aggregate\" />
+    <Folder Include="src\Modules\Clientes\infrastructure\" />
+    <Folder Include="src\Modules\Clientes\infrastructure\Entity\" />
+    <Folder Include="src\Modules\Clientes\infrastructure\Repository\" />
     <Folder Include="src\Shared\" />
     <Folder Include="src\Shared\Context\" />
     <Folder Include="src\Shared\Contracts\" />

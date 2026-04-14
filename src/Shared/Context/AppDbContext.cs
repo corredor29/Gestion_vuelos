@@ -4,9 +4,10 @@ using Gestion_vuelos.src.Modules.Ciudades.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.Aerolineas.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.Aeropuerto.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.TipoDocumento.infrastructure.Entity;
+using Gestion_vuelos.src.Modules.Clientes.infrastructure.Entity;
+
 /*
 using Gestion_vuelos.src.Modules.Roles.infrastructure.Entity;
-using Gestion_vuelos.src.Modules.Clientes.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.DominioEmail.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.CodigoTelefono.infrastructure.Entity;
 using Gestion_vuelos.src.Modules.ClienteEmails.infrastructure.Entity;
@@ -56,6 +57,7 @@ public class AppDbContext : DbContext
     public DbSet<AerolineasEntity> Aerolineas {get; set;}
     public DbSet<AeropuertoEntity> Aeropuerto {get; set;}
     public DbSet<TipoDocumentoEntity> TipoDocumento {get; set;}
+    public DbSet<ClientesEntity> Clientes {get; set;}
 
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
